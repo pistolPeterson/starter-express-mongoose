@@ -1,18 +1,41 @@
-# Starter Code: Mongoose
+# Starter Express Mongoose Project
 
-This server is intended to be run for some lessons in the Thinkful curriculum. If you have trouble getting the server to run, reach out for assistance.
+This project provides a starting point for building an application with **Express** and **Mongoose**, focusing on connecting a Node.js server to a MongoDB database using Mongoose as the Object Data Modeling (ODM) library.
+
+## Features
+- Express setup with route handling
+- Mongoose integration with MongoDB for database operations
+- Example schema and models for managing data
 
 ## Installation
 
-1. Clone this repository.
-1. `cd` into the newly created directory.
-1. Run `npm install`.
-1. Run `npm start`. This command will spin up a server on port 5000.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Thinkful-Ed/starter-express-mongoose.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd starter-express-mongoose
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Set up environment variables:
+   - Create a `.env` file and include your MongoDB URI:
+     ```
+     MONGO_URI=<your-mongo-database-URI>
+     ```
 
-## Description
+5. Run the application:
+   ```bash
+   npm start
+   ```
 
-This project contains the minimum setup code required to run an Express API. However, only the not found and error handlers are implemented at this point.
+## Usage
+This starter template provides the basic structure for building RESTful APIs. You can extend it by adding more routes, controllers, and Mongoose models.
 
-Follow the instructions in the checkpoint for implementing the API.
-
-If you have trouble, reach out for assistance.
+## Technologies
+- **Express**: Web framework for Node.js.
+- **Mongoose**: ODM library for MongoDB.
+- **MongoDB**: NoSQL database.
